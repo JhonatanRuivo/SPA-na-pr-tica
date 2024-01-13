@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA</title>
+</head>
+
+<body style="display: flex; flex-direction: column; gap: 50px;">
+    <h1>BarberSystem</h1>
+    <nav style="display: flex; gap: 20px;">
+        <a href="/" onclick="route()">Início</a>
+        <a href="/schedules" onclick="route()">Agenda</a>
+        <a href="/services" onclick="route()">Serviços</a>
+        <a href="/products" onclick="route()">Produtos</a>
+        <a href="/professionals" onclick="route()">Profissionais</a>
+        <a href="/profile" onclick="route()">Minha Conta</a>
+        <a href="/cart" onclick="route()">Carrinho</a>
+        <a href="/about" onclick="route()">Sobre Nós</a>
+    </nav>
+    <div id="app"></div>
+
+
+    <script defer src="src/index.js" type="module"></script>
+</body>
+</html>
